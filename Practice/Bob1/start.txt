@@ -1,0 +1,83 @@
+	786!!!s
+
+Webscrapping:
+
+Terminal:
+
+Then open jupyter-notebook
+
+scrapping practice:
+
+	-library
+	
+	-beautifulsoup
+	
+	-import it
+	
+	-bs4 beautifulsoup
+	
+	-import requests
+	
+	-hide/show data
+	
+	-for hidden data use request library
+	
+	-goibibo.com/robots.txt
+	
+	-it will give the scrapping data that we can scrap from a site
+	
+	-Look allow and disallow
+	
+	-by import requests libray we can request them to give us disallow data as well
+	
+	-with open is used to open a file 
+	
+	-r is used to read 
+	
+	-import it in variable 
+	
+	-store it in content varaible 
+	
+	-make soup variable 
+	
+	-soup=BeautifulSoup(content,'lxml')
+	
+	-print(soup)
+	
+	-it will print all the code of html file
+	
+	-soup.prettify() is used to prettify the code
+	
+Now we will do findings:
+
+	-tag=soup.find('h5')
+	
+	-print(tag)
+	
+	-it will print the tag
+	
+	-anchor tag (a) is multiple in a code
+	
+	-first anchor tag will be returned
+	
+	-findall command is used to print all anchor tags
+	
+	-tag=soup.findall('a')
+	 print(tag)
+	
+	-this is the command to find all anchor tags
+	
+	-For the content only
+	
+	-use print(tag.text) to get the content only
+	
+	-to get the text of multiple h5
+	
+	-use for loop
+
+	-tag=soup.find_all('h5')
+	 for writting in tag:
+	 	print(writting.text)
+	 	
+	 -it will print the content of all the h5 tags
+	
